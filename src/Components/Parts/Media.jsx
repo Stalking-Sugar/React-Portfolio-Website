@@ -11,8 +11,8 @@ function MediaSection() {
     return(
     <div class="mediaContainer">
       
-          <div className='lefttext medialeft'>
-            <h3 class="whiteText">I like working on small media projects like songs, video's and games.
+          <div className='lefttext medialeft '>
+            <h3 class="whiteText medialeft-text">I like working on small media projects like songs, video's and games.
                                   <br></br>
                                   <br></br>
                                   Some of my interests include making my own 3D modelling and animation, playing the guitar, reading horror & sci-fi books and freerunning. 
@@ -23,11 +23,11 @@ function MediaSection() {
           </div>
 
           <div className='mediaright'>
-            <img className='rightimage' scr={WIP}/>
+            {/* <img className='rightimage' scr={WIP}/> */}
             
-            {/* <div className='YoutubeVideo'>
-              <LiteYoutubeEmbed playlabel="Example Video"  id={'5KakGqaptPY'}/>
-            </div> */}
+            <div className='YoutubeVideo'>
+              <LiteYoutubeEmbed playlabel="Example Video"  id={'F38EuG2dAyM'}/>
+            </div>
             
           </div>
         </div>

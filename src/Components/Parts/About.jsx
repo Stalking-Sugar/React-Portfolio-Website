@@ -9,19 +9,25 @@ function AboutSection() {
     return(
     <div className='about'>
       <div className='text-video-container'>
+
+        {/* <div className='textimg'> */}
+          <img className='textimg' src="./Images/Setup2.jpg"/>
+        {/* </div> */}
+              
       {/* <div className='backdrop-blur' /> */}
-      <video className='textvid' autoPlay loop muted>
+      {/* <video className='textvid' autoPlay loop muted>
         <source src={bgVideo} type="video/mp4" autoPlay muted />
-      </video>
+      </video> */}
+
     
-      <div class="container-intro w-about-container">
+      <div class=" w-about-container">
         <img src={noodle} alt="A cool Gif" class="aboutgif"/>
           <h3 className='abouttext'>
               My name is Jetze Hettema,
-              I'm a student who studies coding and game development.
+              I'm a student who studies Creative Technology at the UT (University Twente).
               <br></br>
               <br></br>
-              I've used Blender, Unity and Godot and have programmed in C#, C++, Python, React and GDScript 
+              I've used Blender, Unity and Godot and have programmed in C#, C++, Python, React and GDScript.
           </h3>
       </div>
       </div>

@@ -20,11 +20,11 @@ function App() {
          <div id='About'>
             <About />
         </div>
+        <div id='Media'>
+            <Media />
+        </div>
         <div id='Portfolio'>
             <Portfolio />
-        </div>
-         <div id='Media'>
-            <Media />
         </div>
         <div id='Contact'>
             <Contact />
