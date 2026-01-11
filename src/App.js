@@ -9,6 +9,9 @@ import Portfolio from './Components/Parts/Portfolio';
 import Contact from './Components/Parts/Contact';
 import Media from './Components/Parts/Media';
 
+import divider from './SourceFiles/divider.svg'
+
+
 function App() {
   return (
     <div className="App">
@@ -20,6 +23,10 @@ function App() {
          <div id='About'>
             <About />
         </div>
+            <div class='divider-container'>
+        <img class='divider' src={divider} alt="A cool img"/>
+    </div>
+
         <div id='Media'>
             <Media />
         </div>

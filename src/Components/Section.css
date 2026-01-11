@@ -13,6 +13,44 @@ video {
 }
 
 
+/*  ////////////////////////////////////////
+    //                                    //
+    //         Background colors          //  
+    //                                    //
+    //////////////////////////////////////// */
+
+
+.navbar,
+.nav-item,
+.nav-menu,
+.navbar-container,
+.nav-links,
+.navbar-logo,
+#contact,
+.logo {
+    background-color: #22222c;
+    outline-color: #000000;
+    
+    outline-width: thick;
+    /* background-color: #e096b1; */
+    /* height: 80px; */
+}
+
+.mediaContainer,
+.about,
+.container-intro,
+.container-portfolio,
+.intro {
+    background-color: #353544;
+
+}
+
+.container-portfolio{
+    background-color: #f3eded;
+}
+
+
+
 /*  //////////////////////////////
     //                          //
     //         Contact          //  
@@ -23,10 +61,9 @@ video {
     width: 100vw;
     padding: 2vh 2vh 2vh 0;
     padding-bottom: 7.5vh;
+    padding-top: 5vh;
     border-radius: 10px 10px 0 0;
     text-align: center;
-    margin-top: 10vh;
-    background-color: #1f2330;
 }
 
 #contactlinks {
@@ -165,20 +202,7 @@ video {
     //                          //
     ////////////////////////////// */
 
-.navbar,
-.nav-item,
-.nav-menu,
-.navbar-container,
-.nav-links,
-.navbar-logo,
-.logo {
-    background-color: #333745;
-    outline-color: #000000;
-    
-    outline-width: thick;
-    /* background-color: #e096b1; */
-    /* height: 80px; */
-}
+
 
 .navbar {
     position: sticky !important;
@@ -308,7 +332,7 @@ image{
 
 .video-container {
     /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -319,7 +343,7 @@ image{
 }
 
 .video-container>h1 {
-    color: #ffffff;
+    color: #dfe0e2;
     text-align: left;
     letter-spacing: 2px;
     margin-top: 0;
@@ -340,7 +364,7 @@ image{
 
 
 .animatedText {
-    color: #ffffff;
+    color: #dfe0e2;
     letter-spacing: 2px;
     margin-top: 0;
     font-family: Inconsolata, monospace;
@@ -365,7 +389,7 @@ image{
     font-size: 100px;
     margin-top: -100px;
     font-size: 32px;
-    background-color: transparent;
+    background-color: #4d5061;
     box-shadow: #000000;
     background-image: image("src/SourceFiles/Setup.jpg");
 }
@@ -457,10 +481,6 @@ image{
     //                          //
     ////////////////////////////// */
 
-
-.intro {
-    background-image: linear-gradient(#fff, #fff);
-}
 
 .sideimg {
     width: 10vh;
@@ -557,7 +577,6 @@ image{
 }
 
 .mediaContainer{
-    background-color: #333745;
     min-height: 75vh;
     padding-bottom: 5vh;
     display: flex;
@@ -575,6 +594,7 @@ image{
     justify-content: flex-end;
     align-items: center;
     padding: 200px 100px 100px 100px;
+    padding-bottom: 10vh;
 }
 
 .w-container {
@@ -662,7 +682,6 @@ image{
 .about {
     padding-bottom: 5vh;
     display: flex;
-    background-color: #333745;
 }
 
 

@@ -4,6 +4,17 @@
   padding: 0;
   font-family: Inconsolata, monospace;
 }
+.divider-container {
+    display: flex;
+    background-color: #353544;
+    justify-content: center;
+}
+
+.divider{
+  justify-self: center;
+  height: 100%;
+  width: 95%;
+}
 
 .unselectable {
   -webkit-touch-callout: none;

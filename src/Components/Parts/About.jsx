@@ -2,6 +2,7 @@ import React from 'react';
 import bgVideo from '../../SourceFiles/Videos/ON.mov'
 import noodle from '../../SourceFiles/Gifs/Noodle.gif'
 
+
 import '../../App.css';
 import '../Section.css';
 
@@ -31,7 +32,6 @@ function AboutSection() {
           </h3>
       </div>
       </div>
-
     </div>
     )
 }

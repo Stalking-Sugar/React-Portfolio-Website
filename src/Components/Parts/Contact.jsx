@@ -17,7 +17,7 @@ function ContactSection() {
     return(
     <div> 
       <div id="contact">
-        <div>If you want to see more or you'd like to contact me, use the links below:</div>
+        <div id="contactlinks">If you want to see more or you'd like to contact me, use the links below:</div>
         <div id="contactlinks">
           <a class="contactlink" target="_blank" href="https://youtube.com/@Doctorblobs">
               <img src={ytl} alt="The Youtube logo" /> 
@@ -34,7 +34,7 @@ function ContactSection() {
             Linkedin
           </a>
 
-          <a class="contactlink" target="_blank" href="mailto:doctorblobsvr@gmail.com"> 
+          <a class="contactlink" target="_blank" href="mailto:jetske.hettema@gmail.com"> 
             <img src={el} alt="An at symbol" />
             E-Mail
           </a>
