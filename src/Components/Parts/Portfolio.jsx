@@ -30,7 +30,7 @@ function PortfolioSection() {
 
         <div>
           <h3 className="timeline-text-domin">
-            /Games/Media/
+            /Games&Media/
           </h3>
         </div>
           <div className="cardsholder">
@@ -246,6 +246,39 @@ function PortfolioSection() {
             </Modal> */}
 
           </Card>
+
+          
+          <Card className=" portcard text-center">
+            <Card.Img variant='top' src='./Images/Math.png'></Card.Img>
+            <Card.Body>
+              <Card.Title>Math for Game Devs Youtube Course</Card.Title>
+              <Card.Text>
+                I went through a gamedev-centric mathematics course by Freya Holmér on youtube.
+              </Card.Text>
+
+              <a href="https://www.youtube.com/playlist?list=PLImQaTpSAdsArRFFj8bIfqMk2X7Vlf3XF" target="Youtube" rel="noopener noreferrer">
+              <Button
+                variant="link"
+                // onClick={() => handleShowModal('modal2')}
+              >
+                Playlist
+              </Button>
+              </a>
+
+            </Card.Body>
+
+              {/* <Modal show={modalState['modal5']} onHide={() => handleCloseModal('modal5')}>
+              <Modal.Header closeButton>
+                <Modal.Title className="modaltext">VU C++ Course</Modal.Title>
+              </Modal.Header>
+              <Modal.Body>
+                <p>Modal 4 body text goes here.</p>
+                <p>image from u/0xTJ</p>
+              </Modal.Body>
+            </Modal> */}
+
+          </Card>
+
         </div>
 
         <div>
@@ -338,7 +371,7 @@ function PortfolioSection() {
             <Card.Body>
               <Card.Title>Multiple Websites (HTML, CSS, JS & React)</Card.Title>
               <Card.Text>
-                This website is the culmination of me working with HTML, CSS, JS and combining that into one React app. 
+                This website is the result of me working with HTML, CSS, JS and combining that into one React website. 
               </Card.Text>
               <a href="https://redactedcafe.nl/#/" target="Github" rel="noopener noreferrer">
               <Button

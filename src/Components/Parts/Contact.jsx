@@ -24,7 +24,7 @@ function ContactSection() {
               Youtube
           </a>
 
-          <a class="contactlink" target="_blank" href="https://github.com/Doctorblobs"> 
+          <a class="contactlink" target="_blank" href="https://github.com/Stalking-Sugar"> 
             <img src={gitl} alt="The GitHub logo"/> 
             GitHub
           </a>

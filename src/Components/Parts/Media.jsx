@@ -26,7 +26,7 @@ function MediaSection() {
             {/* <img className='rightimage' scr={WIP}/> */}
             
             <div className='YoutubeVideo'>
-              <LiteYoutubeEmbed playlabel="Example Video"  id={''}/>
+              <LiteYoutubeEmbed playlabel="Example Video" mute='false' id={''}/>
             </div>
             
           </div>

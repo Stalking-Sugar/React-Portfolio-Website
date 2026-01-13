@@ -16,21 +16,21 @@ function HomeSection() {
     return(
     <div className='video-container'>
       
-      <video autoPlay loop muted>
+      {/* <video autoPlay loop muted>
         <source src={bgVideo} type="video/mp4" autoPlay muted />
-      </video>
+      </video> */}
       <MobileOnlyView>
         <div className='animatedText'>
           <Typewriter className='animatedText'
             onInit={(typewriter) => {
-                                      typewriter.typeString('<p>Thanks for Visiting this site!<p>')
+                                      typewriter.typeString('<p>Thanks for visiting this site!<p>')
                                       .pauseFor(1500)
                                       .deleteAll()
                                       .start();
                                       typewriter.typeString('<p>By the way this site is best viewed in a desktop browser.<p>') 
                                       .pauseFor(1500)
                                       .deleteAll()
-                                      typewriter.typeString('<p>This is my Portfolio, Have a Look!<p>') 
+                                      typewriter.typeString('<p>This is my portfolio, have a look!<p>') 
                                       .callFunction(state => {
                                         state.elements.cursor.setAttribute('hidden', 'hidden');
                                         typewriter.stop();
@@ -40,18 +40,20 @@ function HomeSection() {
       </MobileOnlyView>
       <BrowserView>
       <div className='animatedText'>
-          <Typewriter className='animatedText'
+        <p>/</p>
+          <Typewriter className='animatedText' 
             onInit={(typewriter) => {
-                                      typewriter.typeString('<p>Thanks for Visiting this site!<p>')
+                                      typewriter.typeString('<p>Thanks for visiting this site!<p>')
                                       .pauseFor(1500)
                                       .deleteAll()
-                                      .start();
-                                      typewriter.typeString('<p>This is my Portfolio, Have a Look!<p>') 
+                                      .typeString('<p> This is my portfolio, have a look!<p>') 
+                                      .start()
                                       .callFunction(state => {
                                         state.elements.cursor.setAttribute('hidden', 'hidden');
                                         typewriter.stop();
                                       })
                                       }}/>
+       <p>/</p>
       </div>
       </BrowserView>
 
